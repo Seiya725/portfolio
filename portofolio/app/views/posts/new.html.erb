@@ -1,0 +1,7 @@
+<h2>Make a post</h2>
+<%= form_tag("/posts/create") do %>
+<textarea name="content"></textarea>
+<input name="title" value="Enter title">
+<input name="text" value="Enter text">
+<input type="submit" value="Save post">
+<% end %>
